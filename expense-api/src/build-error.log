@@ -1,0 +1,1168 @@
+/usr/bin/../lib/google-cloud-sdk/lib/third_party/google/cloud/appengine_v1alpha/proto/version_pb2.py:1659: SyntaxWarning: "\ " is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\ "? A raw string is also an option.
+  '__doc__': """\ `Cloud Endpoints <https://cloud.google.com/endpoints>`__
+/usr/bin/../lib/google-cloud-sdk/lib/third_party/google/cloud/appengine_v1alpha/proto/app_yaml_pb2.py:991: SyntaxWarning: "\ " is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\ "? A raw string is also an option.
+  \ ``30x`` code to use when performing redirects for the
+----------------------------- REMOTE BUILD OUTPUT ------------------------------
+starting build "852e7339-35f1-41b5-b018-78a9a86fa0c0"
+FETCHSOURCE
+Fetching storage object: gs://run-sources-expense-analyzer-510805-asia-south1/services/balaji-expense-api/1791277761.726873-eade7e9a478143f7b8d469a1c3820576.zip#1791277761836636
+Copying gs://run-sources-expense-analyzer-510805-asia-south1/services/balaji-expense-api/1791277761.726873-eade7e9a478143f7b8d469a1c3820576.zip#1791277761836636...
+/ [0 files][    0.0 B/  4.2 KiB]                                                / [1 files][  4.2 KiB/  4.2 KiB]
+Operation completed over 1 objects/4.2 KiB.
+Archive:  /tmp/source-archive.zip
+  inflating: /workspace/db.ts
+  inflating: /workspace/storage.ts
+  inflating: /workspace/index.ts
+BUILD
+Starting Step #0 - "pre-buildpack"
+Step #0 - "pre-buildpack": Pulling image: asia-south1-docker.pkg.dev/serverless-runtimes/utilities/buildpack-shim:base_20260522_18_04_RC00
+Step #0 - "pre-buildpack": base_20260522_18_04_RC00: Pulling from serverless-runtimes/utilities/buildpack-shim
+Step #0 - "pre-buildpack": 90d2e6015888: Pulling fs layer
+Step #0 - "pre-buildpack": 90d2e6015888: Verifying Checksum
+Step #0 - "pre-buildpack": 90d2e6015888: Download complete
+Step #0 - "pre-buildpack": 90d2e6015888: Pull complete
+Step #0 - "pre-buildpack": Digest: sha256:614a3f9cc26b149fcc979329840526d05b5cda75da0ac73ca2fefae66c156cea
+Step #0 - "pre-buildpack": Status: Downloaded newer image for asia-south1-docker.pkg.dev/serverless-runtimes/utilities/buildpack-shim:base_20260522_18_04_RC00
+Step #0 - "pre-buildpack": asia-south1-docker.pkg.dev/serverless-runtimes/utilities/buildpack-shim:base_20260522_18_04_RC00
+Step #0 - "pre-buildpack": Preparing directory /layers
+Step #0 - "pre-buildpack": Preparing directory /workspace
+Step #0 - "pre-buildpack": Preparing directory /builder/home
+Step #0 - "pre-buildpack": Preparing directory /builder/outputs
+Step #0 - "pre-buildpack": Preparing directory /platform/env
+Step #0 - "pre-buildpack": Passing build environment variable BUILDER_OUTPUT to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_BUILDER_VERSION to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_BUILDER_IMAGE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_RUN_IMAGE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_SOURCE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_USE_SERVERLESS_RUNTIMES_TARBALLS to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable X_GOOGLE_USE_ZSTD_FOR_EXTRACTION to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_RUNTIME_IMAGE_REGION to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_BUILD_ENV to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_BUILD_UNIVERSE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_TPC_TARBALL_PROJECT to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_TPC_HOSTNAME to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable X_GOOGLE_SET_NODE_HEAP_SIZE to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_BUILD_ID to buildpacks
+Step #0 - "pre-buildpack": Passing build environment variable GOOGLE_LABEL_BASE_IMAGE to buildpacks
+Finished Step #0 - "pre-buildpack"
+Starting Step #1 - "build"
+Step #1 - "build": Pulling image: asia-south1-docker.pkg.dev/serverless-runtimes/google-24-full/builder/universal:universal_builder_20260926_RC00
+Step #1 - "build": universal_builder_20260926_RC00: Pulling from serverless-runtimes/google-24-full/builder/universal
+Step #1 - "build": 73847a9ca5f4: Already exists
+Step #1 - "build": a5b8a074ed29: Already exists
+Step #1 - "build": 9ba6e5621a07: Already exists
+Step #1 - "build": cfc13b5fac9d: Pulling fs layer
+Step #1 - "build": 78c1fbd2bfe7: Pulling fs layer
+Step #1 - "build": fe0a88c014e5: Pulling fs layer
+Step #1 - "build": 1d6a2b953951: Pulling fs layer
+Step #1 - "build": 8654b08c79b9: Pulling fs layer
+Step #1 - "build": c6b8876dea25: Pulling fs layer
+Step #1 - "build": cf61c145d95d: Pulling fs layer
+Step #1 - "build": 01bf35e32f5c: Pulling fs layer
+Step #1 - "build": 4f4fb700ef54: Pulling fs layer
+Step #1 - "build": cf61c145d95d: Waiting
+Step #1 - "build": 01bf35e32f5c: Waiting
+Step #1 - "build": 4f4fb700ef54: Waiting
+Step #1 - "build": c6b8876dea25: Verifying Checksum
+Step #1 - "build": c6b8876dea25: Download complete
+Step #1 - "build": fe0a88c014e5: Verifying Checksum
+Step #1 - "build": fe0a88c014e5: Download complete
+Step #1 - "build": 8654b08c79b9: Verifying Checksum
+Step #1 - "build": 8654b08c79b9: Download complete
+Step #1 - "build": 01bf35e32f5c: Verifying Checksum
+Step #1 - "build": 01bf35e32f5c: Download complete
+Step #1 - "build": cf61c145d95d: Verifying Checksum
+Step #1 - "build": cf61c145d95d: Download complete
+Step #1 - "build": 78c1fbd2bfe7: Verifying Checksum
+Step #1 - "build": 78c1fbd2bfe7: Download complete
+Step #1 - "build": 1d6a2b953951: Verifying Checksum
+Step #1 - "build": 1d6a2b953951: Download complete
+Step #1 - "build": 4f4fb700ef54: Verifying Checksum
+Step #1 - "build": 4f4fb700ef54: Download complete
+Step #1 - "build": cfc13b5fac9d: Download complete
+Step #1 - "build": cfc13b5fac9d: Pull complete
+Step #1 - "build": 78c1fbd2bfe7: Pull complete
+Step #1 - "build": fe0a88c014e5: Pull complete
+Step #1 - "build": 1d6a2b953951: Pull complete
+Step #1 - "build": 8654b08c79b9: Pull complete
+Step #1 - "build": c6b8876dea25: Pull complete
+Step #1 - "build": cf61c145d95d: Pull complete
+Step #1 - "build": 01bf35e32f5c: Pull complete
+Step #1 - "build": 4f4fb700ef54: Pull complete
+Step #1 - "build": Digest: sha256:ee028b481db027435142c27caeb3b4b37738e0665722f72a3f6734ef7ea2a7a9
+Step #1 - "build": Status: Downloaded newer image for asia-south1-docker.pkg.dev/serverless-runtimes/google-24-full/builder/universal:universal_builder_20260926_RC00
+Step #1 - "build": asia-south1-docker.pkg.dev/serverless-runtimes/google-24-full/builder/universal:universal_builder_20260926_RC00
+Step #1 - "build": Warning: No cached data will be used, no cache specified.
+Step #1 - "build": ===> ANALYZING
+Step #1 - "build": ===> DETECTING
+Step #1 - "build": target distro name/version labels not found, reading /etc/os-release file
+Step #1 - "build": ======== Output: google.dotnet.sdk@0.9.1 ========
+Step #1 - "build": Opting out: no project files or .dll files found
+Step #1 - "build": ======== Output: google.dotnet.functions-framework@0.0.1 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.dotnet.publish@0.9.0 ========
+Step #1 - "build": Opting out: no project files found and GOOGLE_BUILDABLE not set
+Step #1 - "build": ======== Output: google.dotnet.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no project files or .dll files found
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.dotnet.sdk@0.9.1
+Step #1 - "build": skip: google.dotnet.functions-framework@0.0.1
+Step #1 - "build": fail: google.dotnet.publish@0.9.0
+Step #1 - "build": fail: google.dotnet.runtime@0.9.1
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.dotnet.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no project files or .dll files found
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.dotnet.runtime@0.9.1
+Step #1 - "build": fail: google.config.entrypoint@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.dart.sdk@1.0.0 ========
+Step #1 - "build": Opting out: neither pubspec.yaml nor any .dart files found
+Step #1 - "build": ======== Output: google.dart.pub@0.1.0 ========
+Step #1 - "build": Opting out: pubspec.yaml not found
+Step #1 - "build": ======== Output: google.dart.compile@1.0.0 ========
+Step #1 - "build": Opting out: no .dart files found
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.dart.sdk@1.0.0
+Step #1 - "build": skip: google.dart.pub@0.1.0
+Step #1 - "build": fail: google.dart.compile@1.0.0
+Step #1 - "build": ======== Output: google.go.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .go files found
+Step #1 - "build": ======== Output: google.go.functions-framework@0.9.4 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.go.build@0.9.0 ========
+Step #1 - "build": Opting out: no .go files found
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.go.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.go.runtime@0.9.1
+Step #1 - "build": fail: google.go.functions-framework@0.9.4
+Step #1 - "build": fail: google.go.build@0.9.0
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.go.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.go.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .go files found
+Step #1 - "build": ======== Output: google.go.gomod@0.9.0 ========
+Step #1 - "build": Opting out: go.mod not found
+Step #1 - "build": ======== Output: google.go.build@0.9.0 ========
+Step #1 - "build": Opting out: no .go files found
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.go.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.go.runtime@0.9.1
+Step #1 - "build": fail: google.go.gomod@0.9.0
+Step #1 - "build": fail: google.go.build@0.9.0
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.go.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.go.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .go files found
+Step #1 - "build": ======== Output: google.go.gopath@0.9.0 ========
+Step #1 - "build": Opting in: go.mod file not found, assuming GOPATH build
+Step #1 - "build": ======== Output: google.go.build@0.9.0 ========
+Step #1 - "build": Opting out: no .go files found
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.go.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.go.runtime@0.9.1
+Step #1 - "build": pass: google.go.gopath@0.9.0
+Step #1 - "build": fail: google.go.build@0.9.0
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.go.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.java.graalvm@0.1.0 ========
+Step #1 - "build": Opting out: GOOGLE_JAVA_USE_NATIVE_IMAGE not set
+Step #1 - "build": ======== Output: google.java.maven@0.9.2 ========
+Step #1 - "build": Opting out: none of the following found: pom.xml or .mvn/extensions.xml.
+Step #1 - "build": ======== Output: google.java.spring-boot@0.9.0 ========
+Step #1 - "build": Checking for packaged JAR
+Step #1 - "build": Error finding executable jar: (error ID: 838926df):
+Step #1 - "build": did not find any jar files with a Main-Class manifest entry
+Step #1 - "build": Checking for Spring Boot in pom.xml. JAR file not present at detect time.
+Step #1 - "build": Opting out: Not a Spring Boot project
+Step #1 - "build": ======== Output: google.java.functions-framework@1.1.0 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.java.native-image@0.1.0 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.java.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.java.graalvm@0.1.0
+Step #1 - "build": fail: google.java.maven@0.9.2
+Step #1 - "build": skip: google.java.spring-boot@0.9.0
+Step #1 - "build": skip: google.java.functions-framework@1.1.0
+Step #1 - "build": pass: google.java.native-image@0.1.0
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.java.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.java.runtime@0.9.2 ========
+Step #1 - "build": Checking for file: pom.xml
+Step #1 - "build": Checking for file: .mvn/extensions.xml
+Step #1 - "build": Checking for file: build.gradle
+Step #1 - "build": Checking for file: build.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle
+Step #1 - "build": Checking for file: META-INF/MANIFEST.MF
+Step #1 - "build": Opting out: none of the following found: pom.xml, .mvn/extensions.xml, build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle, META-INF/MANIFEST.MF, *.java, *.jar
+Step #1 - "build": ======== Output: google.java.maven@0.9.2 ========
+Step #1 - "build": Opting out: none of the following found: pom.xml or .mvn/extensions.xml.
+Step #1 - "build": ======== Output: google.java.spring-boot@0.9.0 ========
+Step #1 - "build": Checking for packaged JAR
+Step #1 - "build": Error finding executable jar: (error ID: 838926df):
+Step #1 - "build": did not find any jar files with a Main-Class manifest entry
+Step #1 - "build": Checking for Spring Boot in pom.xml. JAR file not present at detect time.
+Step #1 - "build": Opting out: Not a Spring Boot project
+Step #1 - "build": ======== Output: google.java.functions-framework@1.1.0 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.java.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.java.runtime@0.9.2
+Step #1 - "build": fail: google.java.maven@0.9.2
+Step #1 - "build": skip: google.java.spring-boot@0.9.0
+Step #1 - "build": fail: google.java.functions-framework@1.1.0
+Step #1 - "build": skip: google.java.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.java.runtime@0.9.2 ========
+Step #1 - "build": Checking for file: pom.xml
+Step #1 - "build": Checking for file: .mvn/extensions.xml
+Step #1 - "build": Checking for file: build.gradle
+Step #1 - "build": Checking for file: build.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle
+Step #1 - "build": Checking for file: META-INF/MANIFEST.MF
+Step #1 - "build": Opting out: none of the following found: pom.xml, .mvn/extensions.xml, build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle, META-INF/MANIFEST.MF, *.java, *.jar
+Step #1 - "build": ======== Output: google.java.gradle@0.10.0 ========
+Step #1 - "build": Opting out: none of the following found: build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle
+Step #1 - "build": ======== Output: google.java.functions-framework@1.1.0 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.java.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.java.runtime@0.9.2
+Step #1 - "build": skip: google.java.gradle@0.10.0
+Step #1 - "build": fail: google.java.functions-framework@1.1.0
+Step #1 - "build": skip: google.java.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.java.runtime@0.9.2 ========
+Step #1 - "build": Checking for file: pom.xml
+Step #1 - "build": Checking for file: .mvn/extensions.xml
+Step #1 - "build": Checking for file: build.gradle
+Step #1 - "build": Checking for file: build.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle
+Step #1 - "build": Checking for file: META-INF/MANIFEST.MF
+Step #1 - "build": Opting out: none of the following found: pom.xml, .mvn/extensions.xml, build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle, META-INF/MANIFEST.MF, *.java, *.jar
+Step #1 - "build": ======== Output: google.java.exploded-jar@0.9.0 ========
+Step #1 - "build": Opting out: META-INF/MANIFEST.MF not found
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.java.runtime@0.9.2
+Step #1 - "build": fail: google.java.exploded-jar@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.java.runtime@0.9.2 ========
+Step #1 - "build": Checking for file: pom.xml
+Step #1 - "build": Checking for file: .mvn/extensions.xml
+Step #1 - "build": Checking for file: build.gradle
+Step #1 - "build": Checking for file: build.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle
+Step #1 - "build": Checking for file: META-INF/MANIFEST.MF
+Step #1 - "build": Opting out: none of the following found: pom.xml, .mvn/extensions.xml, build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle, META-INF/MANIFEST.MF, *.java, *.jar
+Step #1 - "build": ======== Output: google.java.maven@0.9.2 ========
+Step #1 - "build": Opting out: none of the following found: pom.xml or .mvn/extensions.xml.
+Step #1 - "build": ======== Output: google.java.spring-boot@0.9.0 ========
+Step #1 - "build": Checking for packaged JAR
+Step #1 - "build": Error finding executable jar: (error ID: 838926df):
+Step #1 - "build": did not find any jar files with a Main-Class manifest entry
+Step #1 - "build": Checking for Spring Boot in pom.xml. JAR file not present at detect time.
+Step #1 - "build": Opting out: Not a Spring Boot project
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.java.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.java.runtime@0.9.2
+Step #1 - "build": fail: google.java.maven@0.9.2
+Step #1 - "build": skip: google.java.spring-boot@0.9.0
+Step #1 - "build": fail: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.java.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.java.runtime@0.9.2 ========
+Step #1 - "build": Checking for file: pom.xml
+Step #1 - "build": Checking for file: .mvn/extensions.xml
+Step #1 - "build": Checking for file: build.gradle
+Step #1 - "build": Checking for file: build.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle
+Step #1 - "build": Checking for file: META-INF/MANIFEST.MF
+Step #1 - "build": Opting out: none of the following found: pom.xml, .mvn/extensions.xml, build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle, META-INF/MANIFEST.MF, *.java, *.jar
+Step #1 - "build": ======== Output: google.java.maven@0.9.2 ========
+Step #1 - "build": Opting out: none of the following found: pom.xml or .mvn/extensions.xml.
+Step #1 - "build": ======== Output: google.java.spring-boot@0.9.0 ========
+Step #1 - "build": Checking for packaged JAR
+Step #1 - "build": Error finding executable jar: (error ID: 838926df):
+Step #1 - "build": did not find any jar files with a Main-Class manifest entry
+Step #1 - "build": Checking for Spring Boot in pom.xml. JAR file not present at detect time.
+Step #1 - "build": Opting out: Not a Spring Boot project
+Step #1 - "build": ======== Output: google.java.entrypoint@0.9.0 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.java.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.java.runtime@0.9.2
+Step #1 - "build": fail: google.java.maven@0.9.2
+Step #1 - "build": skip: google.java.spring-boot@0.9.0
+Step #1 - "build": pass: google.java.entrypoint@0.9.0
+Step #1 - "build": skip: google.java.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.java.runtime@0.9.2 ========
+Step #1 - "build": Checking for file: pom.xml
+Step #1 - "build": Checking for file: .mvn/extensions.xml
+Step #1 - "build": Checking for file: build.gradle
+Step #1 - "build": Checking for file: build.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle
+Step #1 - "build": Checking for file: META-INF/MANIFEST.MF
+Step #1 - "build": Opting out: none of the following found: pom.xml, .mvn/extensions.xml, build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle, META-INF/MANIFEST.MF, *.java, *.jar
+Step #1 - "build": ======== Output: google.java.gradle@0.10.0 ========
+Step #1 - "build": Opting out: none of the following found: build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.java.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.java.runtime@0.9.2
+Step #1 - "build": skip: google.java.gradle@0.10.0
+Step #1 - "build": fail: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.java.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.java.runtime@0.9.2 ========
+Step #1 - "build": Checking for file: pom.xml
+Step #1 - "build": Checking for file: .mvn/extensions.xml
+Step #1 - "build": Checking for file: build.gradle
+Step #1 - "build": Checking for file: build.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle.kts
+Step #1 - "build": Checking for file: settings.gradle
+Step #1 - "build": Checking for file: META-INF/MANIFEST.MF
+Step #1 - "build": Opting out: none of the following found: pom.xml, .mvn/extensions.xml, build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle, META-INF/MANIFEST.MF, *.java, *.jar
+Step #1 - "build": ======== Output: google.java.gradle@0.10.0 ========
+Step #1 - "build": Opting out: none of the following found: build.gradle, build.gradle.kts, settings.gradle.kts, settings.gradle
+Step #1 - "build": ======== Output: google.java.entrypoint@0.9.0 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.java.clear-source@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_CLEAR_SOURCE not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.java.runtime@0.9.2
+Step #1 - "build": skip: google.java.gradle@0.10.0
+Step #1 - "build": pass: google.java.entrypoint@0.9.0
+Step #1 - "build": skip: google.java.clear-source@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.config.flex@0.9.1 ========
+Step #1 - "build": Opting out: Env var GAE_APPLICATION_YAML_PATH is not set, not a GAE Flex app.
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.pip@0.9.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.python.webserver@0.9.1 ========
+Step #1 - "build": Opting in: requirements.txt with gunicorn not found
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.config.flex@0.9.1
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": pass: google.python.pip@0.9.2
+Step #1 - "build": pass: google.python.webserver@0.9.1
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.functions-framework@0.9.6 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.python.poetry@0.1.0 ========
+Step #1 - "build": Opting out: pyproject.toml not found
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": fail: google.python.functions-framework@0.9.6
+Step #1 - "build": fail: google.python.poetry@0.1.0
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.functions-framework@0.9.6 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.python.uv@0.1.0 ========
+Step #1 - "build": Python version not specified, using the latest available Python runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: environment variable GOOGLE_PYTHON_PACKAGE_MANAGER is not set, using uv as default package manager
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": fail: google.python.functions-framework@0.9.6
+Step #1 - "build": pass: google.python.uv@0.1.0
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.functions-framework@0.9.6 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.python.pip@0.9.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": fail: google.python.functions-framework@0.9.6
+Step #1 - "build": pass: google.python.pip@0.9.2
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.poetry@0.1.0 ========
+Step #1 - "build": Opting out: pyproject.toml not found
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": fail: google.python.poetry@0.1.0
+Step #1 - "build": fail: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.uv@0.1.0 ========
+Step #1 - "build": Python version not specified, using the latest available Python runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: environment variable GOOGLE_PYTHON_PACKAGE_MANAGER is not set, using uv as default package manager
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": pass: google.python.uv@0.1.0
+Step #1 - "build": fail: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.pip@0.9.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": pass: google.python.pip@0.9.2
+Step #1 - "build": fail: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.ruby.runtime@0.0.1 ========
+Step #1 - "build": Opting out: no .rb files found
+Step #1 - "build": ======== Output: google.ruby.rubygems@0.9.0 ========
+Step #1 - "build": Opting out: no Gemfile or gems.rb found
+Step #1 - "build": ======== Output: google.ruby.bundle@0.9.0 ========
+Step #1 - "build": Opting out: no Gemfile or gems.rb found
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.ruby.rails@0.9.0 ========
+Step #1 - "build": Opting out: bin/rails not found
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.ruby.runtime@0.0.1
+Step #1 - "build": skip: google.ruby.rubygems@0.9.0
+Step #1 - "build": skip: google.ruby.bundle@0.9.0
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.ruby.rails@0.9.0
+Step #1 - "build": fail: google.config.entrypoint@0.9.0
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.ruby.runtime@0.0.1 ========
+Step #1 - "build": Opting out: no .rb files found
+Step #1 - "build": ======== Output: google.utils.archive-source@0.0.1 ========
+Step #1 - "build": Opting out: Env var X_GOOGLE_TARGET_PLATFORM is not set to gcf.
+Step #1 - "build": ======== Output: google.ruby.bundle@0.9.0 ========
+Step #1 - "build": Opting out: no Gemfile or gems.rb found
+Step #1 - "build": ======== Output: google.ruby.functions-framework@0.9.1 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.ruby.runtime@0.0.1
+Step #1 - "build": skip: google.utils.archive-source@0.0.1
+Step #1 - "build": fail: google.ruby.bundle@0.9.0
+Step #1 - "build": fail: google.ruby.functions-framework@0.9.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.php.runtime@0.0.2 ========
+Step #1 - "build": Opting out: composer.json or .php files not found
+Step #1 - "build": ======== Output: google.utils.nginx@0.0.1 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.php.composer-install@0.0.1 ========
+Step #1 - "build": Opting out: composer.json not found
+Step #1 - "build": ======== Output: google.php.composer-gcp-build@0.9.1 ========
+Step #1 - "build": Opting out: composer.json not found
+Step #1 - "build": ======== Output: google.php.composer@0.9.1 ========
+Step #1 - "build": Opting out: composer.json not found
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.php.webconfig@0.0.1 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.php.runtime@0.0.2
+Step #1 - "build": pass: google.utils.nginx@0.0.1
+Step #1 - "build": skip: google.php.composer-install@0.0.1
+Step #1 - "build": skip: google.php.composer-gcp-build@0.9.1
+Step #1 - "build": skip: google.php.composer@0.9.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": pass: google.php.webconfig@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebasenextjs@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.yarn@2.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebasenextjs@0.0.1
+Step #1 - "build": fail: google.nodejs.yarn@2.1.1
+Step #1 - "build": fail: google.nodejs.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebasenextjs@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.yarn@2.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.firebase.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebasenextjs@0.0.1
+Step #1 - "build": fail: google.nodejs.yarn@2.1.1
+Step #1 - "build": fail: google.firebase.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebasenextjs@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.pnpm@0.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebasenextjs@0.0.1
+Step #1 - "build": fail: google.nodejs.pnpm@0.1.1
+Step #1 - "build": fail: google.nodejs.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebasenextjs@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.pnpm@0.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.firebase.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebasenextjs@0.0.1
+Step #1 - "build": fail: google.nodejs.pnpm@0.1.1
+Step #1 - "build": fail: google.firebase.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebasenextjs@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.npm@1.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebasenextjs@0.0.1
+Step #1 - "build": fail: google.nodejs.npm@1.1.1
+Step #1 - "build": fail: google.nodejs.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebasenextjs@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.npm@1.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.firebase.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebasenextjs@0.0.1
+Step #1 - "build": fail: google.nodejs.npm@1.1.1
+Step #1 - "build": fail: google.firebase.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebaseangular@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.yarn@2.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebaseangular@0.0.1
+Step #1 - "build": fail: google.nodejs.yarn@2.1.1
+Step #1 - "build": fail: google.nodejs.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebaseangular@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.yarn@2.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.firebase.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebaseangular@0.0.1
+Step #1 - "build": fail: google.nodejs.yarn@2.1.1
+Step #1 - "build": fail: google.firebase.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebaseangular@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.pnpm@0.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebaseangular@0.0.1
+Step #1 - "build": fail: google.nodejs.pnpm@0.1.1
+Step #1 - "build": fail: google.nodejs.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebaseangular@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.pnpm@0.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.firebase.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebaseangular@0.0.1
+Step #1 - "build": fail: google.nodejs.pnpm@0.1.1
+Step #1 - "build": fail: google.firebase.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebaseangular@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.npm@1.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebaseangular@0.0.1
+Step #1 - "build": fail: google.nodejs.npm@1.1.1
+Step #1 - "build": fail: google.nodejs.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.turborepo@0.0.1 ========
+Step #1 - "build": Opting out: turbo.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasenx@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.firebaseangular@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Output: google.nodejs.npm@1.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.firebase.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": skip: google.nodejs.turborepo@0.0.1
+Step #1 - "build": skip: google.nodejs.firebasenx@0.0.1
+Step #1 - "build": fail: google.nodejs.firebaseangular@0.0.1
+Step #1 - "build": fail: google.nodejs.npm@1.1.1
+Step #1 - "build": fail: google.firebase.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.yarn@2.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.yarn@2.1.1
+Step #1 - "build": fail: google.nodejs.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.yarn@2.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.firebase.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.yarn@2.1.1
+Step #1 - "build": fail: google.firebase.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.pnpm@0.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.pnpm@0.1.1
+Step #1 - "build": fail: google.nodejs.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.pnpm@0.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.firebase.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.pnpm@0.1.1
+Step #1 - "build": fail: google.firebase.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.npm@1.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.npm@1.1.1
+Step #1 - "build": fail: google.nodejs.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.npm@1.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.firebase.firebasebundle@0.0.1 ========
+Step #1 - "build": Opting out: not a firebase apphosting application
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.npm@1.1.1
+Step #1 - "build": fail: google.firebase.firebasebundle@0.0.1
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.yarn@2.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.functions-framework@0.9.4 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.yarn@2.1.1
+Step #1 - "build": skip: google.nodejs.functions-framework@0.9.4
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.pnpm@0.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.functions-framework@0.9.4 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.pnpm@0.1.1
+Step #1 - "build": skip: google.nodejs.functions-framework@0.9.4
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.bun@0.1.0 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.functions-framework@0.9.4 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.bun@0.1.0
+Step #1 - "build": skip: google.nodejs.functions-framework@0.9.4
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.npm@1.1.1 ========
+Step #1 - "build": Opting out: package.json not found
+Step #1 - "build": ======== Output: google.nodejs.functions-framework@0.9.4 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.npm@1.1.1
+Step #1 - "build": skip: google.nodejs.functions-framework@0.9.4
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.nodejs.functions-framework@0.9.4 ========
+Step #1 - "build": Opting out: GOOGLE_FUNCTION_TARGET not set
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.nodejs.functions-framework@0.9.4
+Step #1 - "build": skip: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.nodejs.runtime@1.0.0 ========
+Step #1 - "build": Nodejs version not specified, using the latest available Nodejs runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: found .ts files
+Step #1 - "build": ======== Output: google.config.entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: GOOGLE_ENTRYPOINT not set, no valid entrypoint in app.yaml and Procfile not found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": pass: google.nodejs.runtime@1.0.0
+Step #1 - "build": fail: google.config.entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.webserver@0.9.1 ========
+Step #1 - "build": Opting in: requirements.txt with gunicorn not found
+Step #1 - "build": ======== Output: google.python.poetry@0.1.0 ========
+Step #1 - "build": Opting out: pyproject.toml not found
+Step #1 - "build": ======== Output: google.python.missing-entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": pass: google.python.webserver@0.9.1
+Step #1 - "build": fail: google.python.poetry@0.1.0
+Step #1 - "build": fail: google.python.missing-entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.webserver@0.9.1 ========
+Step #1 - "build": Opting in: requirements.txt with gunicorn not found
+Step #1 - "build": ======== Output: google.python.uv@0.1.0 ========
+Step #1 - "build": Python version not specified, using the latest available Python runtime for the stack "ubuntu2404"
+Step #1 - "build": Opting in: environment variable GOOGLE_PYTHON_PACKAGE_MANAGER is not set, using uv as default package manager
+Step #1 - "build": ======== Output: google.python.missing-entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": pass: google.python.webserver@0.9.1
+Step #1 - "build": pass: google.python.uv@0.1.0
+Step #1 - "build": fail: google.python.missing-entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.python.runtime@0.9.1 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.python.webserver@0.9.1 ========
+Step #1 - "build": Opting in: requirements.txt with gunicorn not found
+Step #1 - "build": ======== Output: google.python.pip@0.9.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.python.missing-entrypoint@0.9.0 ========
+Step #1 - "build": Opting out: no .py files found
+Step #1 - "build": ======== Output: google.utils.devsync@0.0.1 ========
+Step #1 - "build": Opting out: not a devsync build
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.python.runtime@0.9.1
+Step #1 - "build": pass: google.python.webserver@0.9.1
+Step #1 - "build": pass: google.python.pip@0.9.2
+Step #1 - "build": fail: google.python.missing-entrypoint@0.9.0
+Step #1 - "build": skip: google.utils.devsync@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.static.firebase@0.0.1 ========
+Step #1 - "build": --------------------------------------------------------------------------------
+Step #1 - "build": (error ID: 43518754):
+Step #1 - "build": Unknown buildpack ID: google.static.firebase
+Step #1 - "build": Registered buildpacks are:
+Step #1 - "build":   google.config.entrypoint
+Step #1 - "build":   google.config.flex
+Step #1 - "build":   google.cpp.clear-source
+Step #1 - "build":   google.cpp.functions-framework
+Step #1 - "build":   google.dart.compile
+Step #1 - "build":   google.dart.pub
+Step #1 - "build":   google.dart.sdk
+Step #1 - "build":   google.dotnet.functions-framework
+Step #1 - "build":   google.dotnet.publish
+Step #1 - "build":   google.dotnet.runtime
+Step #1 - "build":   google.dotnet.sdk
+Step #1 - "build":   google.firebase.firebasebundle
+Step #1 - "build":   google.go.build
+Step #1 - "build":   google.go.clear-source
+Step #1 - "build":   google.go.functions-framework
+Step #1 - "build":   google.go.gomod
+Step #1 - "build":   google.go.gopath
+Step #1 - "build":   google.go.runtime
+Step #1 - "build":   google.java.clear-source
+Step #1 - "build":   google.java.entrypoint
+Step #1 - "build":   google.java.exploded-jar
+Step #1 - "build":   google.java.functions-framework
+Step #1 - "build":   google.java.graalvm
+Step #1 - "build":   google.java.gradle
+Step #1 - "build":   google.java.maven
+Step #1 - "build":   google.java.native-image
+Step #1 - "build":   google.java.runtime
+Step #1 - "build":   google.java.spring-boot
+Step #1 - "build":   google.nodejs.bun
+Step #1 - "build":   google.nodejs.firebaseangular
+Step #1 - "build":   google.nodejs.firebasebundle
+Step #1 - "build":   google.nodejs.firebasenextjs
+Step #1 - "build":   google.nodejs.firebasenx
+Step #1 - "build":   google.nodejs.functions-framework
+Step #1 - "build":   google.nodejs.npm
+Step #1 - "build":   google.nodejs.pnpm
+Step #1 - "build":   google.nodejs.runtime
+Step #1 - "build":   google.nodejs.turborepo
+Step #1 - "build":   google.nodejs.yarn
+Step #1 - "build":   google.php.composer
+Step #1 - "build":   google.php.composer-gcp-build
+Step #1 - "build":   google.php.composer-install
+Step #1 - "build":   google.php.runtime
+Step #1 - "build":   google.php.webconfig
+Step #1 - "build":   google.python.appengine
+Step #1 - "build":   google.python.functions-framework
+Step #1 - "build":   google.python.missing-entrypoint
+Step #1 - "build":   google.python.pip
+Step #1 - "build":   google.python.poetry
+Step #1 - "build":   google.python.runtime
+Step #1 - "build":   google.python.uv
+Step #1 - "build":   google.python.webserver
+Step #1 - "build":   google.ruby.bundle
+Step #1 - "build":   google.ruby.functions-framework
+Step #1 - "build":   google.ruby.missing-entrypoint
+Step #1 - "build":   google.ruby.rails
+Step #1 - "build":   google.ruby.rubygems
+Step #1 - "build":   google.ruby.runtime
+Step #1 - "build":   google.static.serve
+Step #1 - "build":   google.utils.archive-source
+Step #1 - "build":   google.utils.devsync
+Step #1 - "build":   google.utils.label-image
+Step #1 - "build":   google.utils.nginx
+Step #1 - "build": --------------------------------------------------------------------------------
+Step #1 - "build": Sorry your project couldn't be built.
+Step #1 - "build": Our documentation explains ways to configure Buildpacks to better recognise your project:
+Step #1 - "build":  -> https://cloud.google.com/docs/buildpacks/overview
+Step #1 - "build": If you think you've found an issue, please report it:
+Step #1 - "build":  -> https://github.com/GoogleCloudPlatform/buildpacks/issues/new
+Step #1 - "build": --------------------------------------------------------------------------------
+Step #1 - "build": ======== Output: google.utils.nginx@0.0.1 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.static.firebase@0.0.1
+Step #1 - "build": pass: google.utils.nginx@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.static.serve@0.9.0 ========
+Step #1 - "build": Opting out: Static runtimes feature is supported only on ALPHA release track.
+Step #1 - "build": ======== Output: google.utils.nginx@0.0.1 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Output: google.utils.label-image@0.0.2 ========
+Step #1 - "build": Opting in: always enabled
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.static.serve@0.9.0
+Step #1 - "build": pass: google.utils.nginx@0.0.1
+Step #1 - "build": pass: google.utils.label-image@0.0.2
+Step #1 - "build": ======== Output: google.ruby.missing-entrypoint@0.0.1 ========
+Step #1 - "build": Opting out: no .rb files found
+Step #1 - "build": ======== Results ========
+Step #1 - "build": fail: google.ruby.missing-entrypoint@0.0.1
+Step #1 - "build": ERROR: No buildpack groups passed detection.
+Step #1 - "build": ERROR: Please check that you are running against the correct path.
+Step #1 - "build": ERROR: failed to detect: no buildpacks participating
+Finished Step #1 - "build"
+ERROR
+ERROR: build step 1 "asia-south1-docker.pkg.dev/serverless-runtimes/google-24-full/builder/universal:universal_builder_20260926_RC00" failed: step exited with non-zero status: 20
+--------------------------------------------------------------------------------
